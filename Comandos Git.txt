@@ -1,0 +1,8 @@
+git init = inicializa o git no diretorio
+git config --global user.email " " = email utilizado
+git config --global user.name " "= nome
+
+git status = verificar alguma modificação
+git push = enviar para o github
+git add . = adcionar todas as modificações
+git commit -m " " = descrição sobre a modificação
