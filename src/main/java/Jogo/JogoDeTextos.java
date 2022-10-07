@@ -3,7 +3,7 @@ package Jogo;
 
 import java.util.Scanner;
 
- class JogoDeTextos {
+public class JogoDeTextos {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
