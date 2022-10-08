@@ -6,3 +6,13 @@ git status = verificar alguma modificação
 git push = enviar para o github
 git add . = adcionar todas as modificações
 git commit -m " " = descrição sobre a modificação
+
+git reflog = comando para ver log (topo sempre atualizado)
+git reset --hard (id) = ira voltar a versão anterior do codigo
+
+git branch = ira mostrar todas as branchs disponiveis para trabalhar
+git branch (staging) = criar nova branch
+git checkout (nome branch) = ira mudar a branch que está modificando.
+
+git pull = trazer atualizações do servidor para maquina local.
+git merge (stating) = quando logado na branch que quero importar atualizações, esse codigo vai unificar as atualizações do branch staging para master
