@@ -1,4 +1,4 @@
-git init = inicializa o git no diretorio
+git init = inicializa um novo repositorio
 git config --global user.email " " = email utilizado
 git config --global user.name " "= nome
 
@@ -13,6 +13,9 @@ git reset --hard (id) = ira voltar a versão anterior do codigo
 git branch = ira mostrar todas as branchs disponiveis para trabalhar
 git branch (staging) = criar nova branch
 git checkout (nome branch) = ira mudar a branch que está modificando.
+git checkout -b (nome da branch de origem) (nome da nova branch) = permite mudar e criar uma nova branch com base em outra
 
 git pull = trazer atualizações do servidor para maquina local.
 git merge (stating) = quando logado na branch que quero importar atualizações, esse codigo vai unificar as atualizações do branch staging para master
+
+touch .gitignore = ignorar pastas e arquivos que selecionamos
